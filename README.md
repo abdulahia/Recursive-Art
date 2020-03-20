@@ -2,8 +2,6 @@
 
 ## You will write a C++ program that employs the use of randomness, 
 ## recursion, and turtles to create art in the style of Piet Mondrian, 
-## as described in the linked lab. 
-### This work heavily leverage nifty.stanford.edu/2018/stephenson-mondrian-art/
 
 ### Starter files have been provided for you in C++
 
@@ -59,7 +57,7 @@ or you can use pseudocode.*
 
 *FIXME*
 
-#Implementation and Customization
+# Implementation and Customization Prompts
 
 7. **SPLITTING**
 *How many “units” wide or tall did you consider a 
@@ -146,4 +144,5 @@ Also list all other references below.*
 
 ## References:
 - This repo contains code by Jan Pearce and Jesse Walker as described above.
+- The linked lab heavily leverage nifty.stanford.edu/2018/stephenson-mondrian-art/
 - *FIXME*
