@@ -1,13 +1,13 @@
 # [L08: Mondrian](https://docs.google.com/document/d/1Ty7-La9W8I_k7h6FW1GKGbwDBfmH45OR8sEgPG-sc9w/edit?usp=sharing)
 
 ## You will write a C++ program that employs the use of randomness, 
-## recursion, and turtles to create art in the style of Piet Mondrian, 
+recursion, and turtles to create art in the style of Piet Mondrian, 
 
 ### Starter files have been provided for you in C++
 
 ### *FIXME: Author(s) of logic and code: add name(s) here*
-### Author of lab and stubs: Jan Pearce, Berea College
-### Author of [C-Turtle](https://github.com/walkerje/C-Turtle): Jesse W. Walker
+Author of lab and stubs: Jan Pearce, Berea College
+Author of [C-Turtle](https://github.com/walkerje/C-Turtle): Jesse W. Walker
 
 # Planning Prompts
 
@@ -108,7 +108,7 @@ lab easier for you.*
 *FIXME*
 
 14. **BIG O ANALYSIS**
-* Please analyze the Big O of all of the methods of the MondrianArt class, 
+*Please analyze the Big O of all of the methods of the MondrianArt class, 
 including constructors. 
 Hint: Given the random nature of this lab, 
 be sure you write about the worst case.*
