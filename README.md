@@ -1,8 +1,9 @@
-# [L08: Mondrian](https://docs.google.com/document/d/1rOxBrFifkuemZBPvCbzykaGYSfOBPXEOsOnQdRglk_g/edit?usp=sharing)
+# [L08: Mondrian](https://docs.google.com/document/d/1Ty7-La9W8I_k7h6FW1GKGbwDBfmH45OR8sEgPG-sc9w/edit?usp=sharing)
 
-## This lab is designed to give you familiarity with an important aspect 
-## of binary arithmetic, namely adding 1 or incrementing which sometimes 
-## results in the propagation of a carry through the bits. 
+## You will write a C++ program that employs the use of randomness, 
+## recursion, and turtles to create art in the style of Piet Mondrian, 
+## as described in the linked lab. 
+### This work heavily leverage nifty.stanford.edu/2018/stephenson-mondrian-art/
 
 ### Starter files have been provided for you in C++
 
