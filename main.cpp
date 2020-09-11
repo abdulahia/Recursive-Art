@@ -54,7 +54,7 @@ void sierpinski(ct::Point a, ct::Point b, ct::Point c, int degree, ct::Turtle& m
 
 int main() {
     ct::TurtleScreen scr; //makes screen
-    turtleScreen.tracer(0);
+    turtleScreen.tracer(0); //improves speed
     ct::Turtle rt(scr);   //makes Turtle on screen
 
 	Getrandom newrandom(4);
