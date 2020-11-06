@@ -5,14 +5,15 @@
 ### Starter files have been provided for you in C++
 
 ### Author(s):
-- Author of primary logic: *FIXME*
+- Author(s) of primary logic: *FIXME*
 - Author of lab and stubs: Jan Pearce, Berea College
 - Author of [C-Turtle](https://github.com/walkerje/C-Turtle): Jesse W. Walker
+- **Note: If you work in a pair you must also attested to only having worked together as a pair, not separately.**
 
 # Planning Prompts
 
 1. **RECURSION**
-*When the steps say ìUse Recursion toÖî, 
+*When the steps say ‚ÄúUse Recursion to‚Ä¶‚Äù, 
 describe exactly what it is telling you to do*
 
 *FIXME*
@@ -60,13 +61,13 @@ or you can use pseudocode.*
 # Implementation and Customization Prompts
 
 7. **SPLITTING**
-*How many ìunitsî wide or tall did you consider a 
+*How many ‚Äúunits‚Äù wide or tall did you consider a 
 rectangle too small to split?*
 
 *FIXME*
 
 8. **NUMBER CALLS**
-*While filling out the above rectangle in the Mondrianís style 
+*While filling out the above rectangle in the Mondrian‚Äôs style 
 using the series of steps above, 
 is there anything you noticed that will change how many times the 
 recursive function gets called?*
@@ -138,7 +139,9 @@ on what you learned and your reactions to this lab.*
 18. **INTEGRITY STATEMENT**
 *Please briefly describe ALL help you received and 
 all help you gave to others in completing this lab.
-Also list all other references below.*
+Also list all other references below.* 
+**If you worked in a pair you must also attested to only 
+having worked together as a pair, not separately.**
 
 *FIXME*
 
