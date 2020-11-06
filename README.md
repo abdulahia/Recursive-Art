@@ -8,7 +8,7 @@
 - Author(s) of primary logic: *FIXME*
 - Author of lab and stubs: Jan Pearce, Berea College
 - Author of [C-Turtle](https://github.com/walkerje/C-Turtle): Jesse W. Walker
-- **Note: If you work in a pair you must also attested to only having worked together as a pair, not separately.**
+- **Note: If you work in a pair you must also attest to only having worked together as a pair, not separately.**
 
 # Planning Prompts
 
