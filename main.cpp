@@ -1,4 +1,4 @@
- /* Authors: 
+ /* Authors: Ahmed, Emi
     Python version of Sierpinski's triangle by Jan Pearce; Conversion to C++ by Jesse W. Walker
 	C-Turtle by Jesse  W.  Walker, Getrandom by Jan Pearce
 

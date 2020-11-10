@@ -1,0 +1,3 @@
+/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/rebuild_cache.dir
+/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/l08-mondrian.dir
+/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/edit_cache.dir

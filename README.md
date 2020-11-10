@@ -6,7 +6,7 @@
 ### Starter files have been provided for you in C++
 
 ### Author(s):
-- Author(s) of primary logic: *FIXME*
+- Author(s) of primary logic: Emi and Ahmed
 - Author of lab and stubs: Jan Pearce, Berea College
 - Author of [C-Turtle](https://github.com/walkerje/C-Turtle): Jesse W. Walker
 - **Note: If you work in a pair you must also attest to only having worked together as a pair, not separately.**
@@ -17,7 +17,7 @@
 *When the steps say “Use Recursion to…”, 
 describe exactly what it is telling you to do*
 
-*FIXME*
+Change the initial rectangle size to smaller sections. For example as mentioned in the google docs, If the region is wider than half the initial canvas size and the region is taller than half the initial canvas height, we would use recursion to split the region into 4 smaller regions. Based on that, we would be creating new mini rectangles within the rectangle whenever we use recursion.  
 
 2. **PARAMETERS** 
 *Give some serious thought to what parameters need to be utilized by 
@@ -28,19 +28,19 @@ your recursive function. You will basically need to know:*
 - what color it should be. 
 *Using all of this, information, describe the parameters you plan to use.*
 
-*FIXME*
+Initial regtangular points would be (-400,300) and (-400, 600) width of 800 and height of 600. Red, Green, and Blue. 
 
 3. **BASE CASE** 
 *Given the above series of steps uses the recursive method, 
 what is the base case? Explain.*
 
-*FIXME*
+Minimun rectangle width of 20 and height of 10. maximum rectangle width of 40 and height of 20. We created a minimum and maximum size for our base case but we might change based on how we see it when we start coding it. 
 
 4. **RANDOM NUMBER**
 *Explain how the recursion minimum and recursion maximum 
 just discussed relate to the base case for your recursion.*
 
-*FIXME*
+When we reach the middle of our  minimum and maximum base case we don't need to create any more mini rectangales or anymore Recursion beyond that point. 
 
 5. **RANDOM NUMBER COMPUTATION**
 *Assuming you know the coordinate of your upper left corner and 
@@ -50,14 +50,16 @@ random number between 1 and a random max,
 how will you generate an appropriately sized random number and 
 how will you use it for your next function call?*
 
-*FIXME*
+We can have it to where the random size generated would be between a range within close distance to the width. 
+you would call in the parameter.
 
 6. **WHITEBOARD DESIGN**
 *Write a high level design plan for your program.
 You can use screenshots of your work on an actual white board 
 or you can use pseudocode.*
 
-*FIXME*
+Our program will start of with an initial rectangle that is the size of the canvas. Top left will be located at (-400, 300) and the bottom right would be at (-400, 600) with a total width of 800 and height of 600. We will then implement those condition statements mention in the google doc. for example, If the region is wider than half the initial canvas size and the region is taller than half the initial canvas height, we would use recursion to split the region into 4 smaller regions (a vertical split and a horizontal split) with both split locations chosen randomly. Lastly, our colors will be randomized between red, blue, green and white. 
+
 
 # Implementation and Customization Prompts
 

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/l08-mondrian.dir/home/runner/l05-recursive-art-abdulahiaemil05/main.cpp.o  -o l08-mondrian -lpthread /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
