@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/runner/l05-recursive-art
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca651/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca651.dir/build.make CMakeFiles/cmTC_ca651.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_197c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_197c9.dir/build.make CMakeFiles/cmTC_197c9.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca651.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ca651.dir/testCCompiler.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_ca651
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca651.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ca651.dir/testCCompiler.c.o  -o cmTC_ca651 
+Building C object CMakeFiles/cmTC_197c9.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_197c9.dir/testCCompiler.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_197c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_197c9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_197c9.dir/testCCompiler.c.o  -o cmTC_197c9 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_680ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_680ab.dir/build.make CMakeFiles/cmTC_680ab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8e9f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e9f9.dir/build.make CMakeFiles/cmTC_8e9f9.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_680ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_680ab.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o  -o cmTC_680ab 
+Building C object CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8e9f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e9f9.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o  -o cmTC_8e9f9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_680ab' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3taRSA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_680ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_680ab' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e9f9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTtgSpE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e9f9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e9f9' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_680ab/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_680ab.dir/build.make CMakeFiles/cmTC_680ab.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e9f9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8e9f9.dir/build.make CMakeFiles/cmTC_8e9f9.dir/build]
   ignore line: [make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_680ab]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_680ab.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o  -o cmTC_680ab ]
+  ignore line: [Building C object CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8e9f9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e9f9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o  -o cmTC_8e9f9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_680ab' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3taRSA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_680ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e9f9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTtgSpE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e9f9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3taRSA.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTtgSpE.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_680ab] ==> ignore
+    arg [cmTC_8e9f9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_680ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8e9f9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43e5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43e5f.dir/build.make CMakeFiles/cmTC_43e5f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ef09f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef09f.dir/build.make CMakeFiles/cmTC_ef09f.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43e5f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_43e5f.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_43e5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43e5f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_43e5f.dir/feature_tests.c.o  -o cmTC_43e5f 
+Building C object CMakeFiles/cmTC_ef09f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ef09f.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef09f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef09f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ef09f.dir/feature_tests.c.o  -o cmTC_ef09f 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2c99/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2c99.dir/build.make CMakeFiles/cmTC_a2c99.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5fd32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fd32.dir/build.make CMakeFiles/cmTC_5fd32.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2c99.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a2c99.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a2c99
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c99.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a2c99.dir/feature_tests.c.o  -o cmTC_a2c99 
+Building C object CMakeFiles/cmTC_5fd32.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_5fd32.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5fd32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fd32.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5fd32.dir/feature_tests.c.o  -o cmTC_5fd32 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a4b30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a4b30.dir/build.make CMakeFiles/cmTC_a4b30.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3e4ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e4ee.dir/build.make CMakeFiles/cmTC_3e4ee.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4b30.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a4b30.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a4b30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b30.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a4b30.dir/feature_tests.c.o  -o cmTC_a4b30 
+Building C object CMakeFiles/cmTC_3e4ee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3e4ee.dir/feature_tests.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3e4ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e4ee.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3e4ee.dir/feature_tests.c.o  -o cmTC_3e4ee 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68625/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68625.dir/build.make CMakeFiles/cmTC_68625.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e1adb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1adb.dir/build.make CMakeFiles/cmTC_e1adb.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_68625.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_68625.dir/testCXXCompiler.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_68625
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68625.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_68625.dir/testCXXCompiler.cxx.o  -o cmTC_68625 
+Building CXX object CMakeFiles/cmTC_e1adb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e1adb.dir/testCXXCompiler.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e1adb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1adb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e1adb.dir/testCXXCompiler.cxx.o  -o cmTC_e1adb 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5657/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5657.dir/build.make CMakeFiles/cmTC_a5657.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46f78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46f78.dir/build.make CMakeFiles/cmTC_46f78.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a5657
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5657.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a5657 
+Building CXX object CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_46f78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f78.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46f78 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5657' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1StlX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5657 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5657' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f78' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUucH5F.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_46f78 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f78' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a5657/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a5657.dir/build.make CMakeFiles/cmTC_a5657.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_46f78/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_46f78.dir/build.make CMakeFiles/cmTC_46f78.dir/build]
   ignore line: [make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a5657]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5657.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a5657 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_46f78]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f78.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46f78 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5657' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1StlX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5657 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46f78' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUucH5F.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_46f78 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccl1StlX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUucH5F.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -303,7 +303,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a5657] ==> ignore
+    arg [cmTC_46f78] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_a5657.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_46f78.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12fe2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_12fe2.dir/build.make CMakeFiles/cmTC_12fe2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_87882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87882.dir/build.make CMakeFiles/cmTC_87882.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_12fe2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_12fe2.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_12fe2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12fe2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_12fe2.dir/feature_tests.cxx.o  -o cmTC_12fe2 
+Building CXX object CMakeFiles/cmTC_87882.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_87882.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_87882
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87882.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_87882.dir/feature_tests.cxx.o  -o cmTC_87882 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21d2e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21d2e.dir/build.make CMakeFiles/cmTC_21d2e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d2eb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2eb1.dir/build.make CMakeFiles/cmTC_d2eb1.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_21d2e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_21d2e.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_21d2e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21d2e.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_21d2e.dir/feature_tests.cxx.o  -o cmTC_21d2e 
+Building CXX object CMakeFiles/cmTC_d2eb1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d2eb1.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d2eb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2eb1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d2eb1.dir/feature_tests.cxx.o  -o cmTC_d2eb1 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_579f3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_579f3.dir/build.make CMakeFiles/cmTC_579f3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_035ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_035ea.dir/build.make CMakeFiles/cmTC_035ea.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_579f3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_579f3.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_579f3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_579f3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_579f3.dir/feature_tests.cxx.o  -o cmTC_579f3 
+Building CXX object CMakeFiles/cmTC_035ea.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_035ea.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_035ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_035ea.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_035ea.dir/feature_tests.cxx.o  -o cmTC_035ea 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02663/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02663.dir/build.make CMakeFiles/cmTC_02663.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_97a66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97a66.dir/build.make CMakeFiles/cmTC_97a66.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_02663.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_02663.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_02663
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02663.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_02663.dir/feature_tests.cxx.o  -o cmTC_02663 
+Building CXX object CMakeFiles/cmTC_97a66.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_97a66.dir/feature_tests.cxx.o -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97a66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97a66.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_97a66.dir/feature_tests.cxx.o  -o cmTC_97a66 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,112 +634,112 @@ make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.bere
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_24127/fast"
-/usr/bin/make -f CMakeFiles/cmTC_24127.dir/build.make CMakeFiles/cmTC_24127.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d9348/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9348.dir/build.make CMakeFiles/cmTC_d9348.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_24127.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_24127.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_24127
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24127.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_24127.dir/CheckFunctionExists.c.o  -o cmTC_24127 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_d9348.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_d9348.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9348.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_d9348.dir/CheckFunctionExists.c.o  -o cmTC_d9348 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8fb9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8fb9.dir/build.make CMakeFiles/cmTC_f8fb9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b9ea7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9ea7.dir/build.make CMakeFiles/cmTC_b9ea7.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f8fb9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f8fb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f8fb9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8fb9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_f8fb9.dir/CheckFunctionExists.c.o  -o cmTC_f8fb9 
+Building C object CMakeFiles/cmTC_b9ea7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_b9ea7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9ea7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ea7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_b9ea7.dir/CheckFunctionExists.c.o  -o cmTC_b9ea7 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e33f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1e33f.dir/build.make CMakeFiles/cmTC_1e33f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8eb03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8eb03.dir/build.make CMakeFiles/cmTC_8eb03.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e33f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_1e33f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1e33f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e33f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_1e33f.dir/CheckFunctionExists.c.o  -o cmTC_1e33f 
+Building C object CMakeFiles/cmTC_8eb03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_8eb03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8eb03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eb03.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_8eb03.dir/CheckFunctionExists.c.o  -o cmTC_8eb03 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dc489/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dc489.dir/build.make CMakeFiles/cmTC_dc489.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f087f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f087f.dir/build.make CMakeFiles/cmTC_f087f.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dc489.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_dc489.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dc489
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc489.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_dc489.dir/CheckFunctionExists.c.o  -o cmTC_dc489 
+Building C object CMakeFiles/cmTC_f087f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_f087f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f087f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f087f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_f087f.dir/CheckFunctionExists.c.o  -o cmTC_f087f 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5de65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5de65.dir/build.make CMakeFiles/cmTC_5de65.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c6d2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6d2b.dir/build.make CMakeFiles/cmTC_c6d2b.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5de65.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_5de65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5de65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de65.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_5de65.dir/CheckFunctionExists.c.o  -o cmTC_5de65 
+Building C object CMakeFiles/cmTC_c6d2b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_c6d2b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6d2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d2b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_c6d2b.dir/CheckFunctionExists.c.o  -o cmTC_c6d2b 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_165ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_165ee.dir/build.make CMakeFiles/cmTC_165ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e54c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e54c1.dir/build.make CMakeFiles/cmTC_e54c1.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_165ee.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_165ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_165ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_165ee.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_165ee.dir/CheckFunctionExists.c.o  -o cmTC_165ee -lICE 
+Building C object CMakeFiles/cmTC_e54c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_e54c1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e54c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e54c1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_e54c1.dir/CheckFunctionExists.c.o  -o cmTC_e54c1 -lICE 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e87e5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e87e5.dir/build.make CMakeFiles/cmTC_e87e5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_76d97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76d97.dir/build.make CMakeFiles/cmTC_76d97.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e87e5.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e87e5.dir/CheckIncludeFile.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e87e5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e87e5.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e87e5.dir/CheckIncludeFile.c.o  -o cmTC_e87e5 
+Building C object CMakeFiles/cmTC_76d97.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_76d97.dir/CheckIncludeFile.c.o   -c /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76d97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d97.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_76d97.dir/CheckIncludeFile.c.o  -o cmTC_76d97 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_188a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_188a4.dir/build.make CMakeFiles/cmTC_188a4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ae227/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae227.dir/build.make CMakeFiles/cmTC_ae227.dir/build
 make[1]: Entering directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_188a4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_188a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_188a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_188a4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_188a4.dir/CheckFunctionExists.c.o  -o cmTC_188a4 -lpthread 
+Building C object CMakeFiles/cmTC_ae227.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ae227.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae227.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ae227.dir/CheckFunctionExists.c.o  -o cmTC_ae227 -lpthread 
 make[1]: Leaving directory '/home/runner/l05-recursive-art-abdulahiaemil05/.berea/build/CMakeFiles/CMakeTmp'
 
 

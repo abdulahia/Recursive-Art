@@ -1,9 +1,3 @@
- /* Authors: Ahmed, Emi
-    Python version of Sierpinski's triangle by Jan Pearce; Conversion to C++ by Jesse W. Walker
-	C-Turtle by Jesse  W.  Walker, Getrandom by Jan Pearce
-
- */
-
 #include "CTurtle.hpp"   //This brings in the CTurtle library for use
 #include <iostream> //for input & output
 #include <random> //needed for Getrandom
@@ -11,24 +5,21 @@
 namespace ct = cturtle;  //This makes it possible to use the CTurtle commands using ct::
 using namespace std;
 
-class Getrandom {
-	/** Uses <random> and <chrono> from C++11 to return a random integer in range [1..size] */
-public:
-	Getrandom(int size) {
-		auto seed = chrono::system_clock::now().time_since_epoch().count(); //gets a new seed for the randomness
-		default_random_engine generator(seed);			//seeds our randomness
-		uniform_int_distribution<int> intdist(1, size); //a distibution to make each in-range integer equally likely
-		self_rand_int_ = intdist(generator);			//generates the randme number
-	}
-	int roll() {
-		return self_rand_int_;
-	}
-private:
-	int self_rand_int_;
-};
+class MondrianArt{
 
+	 public:
+    MondrianArt(){
+    // Constructor should initialize instance variables.
+    // This may include a list of colors you can use, e.g {“white”, “blue”, “red”, “yellow”}
+    
+    }
+    void  setup_turtle(ct:: Turtle& myTurtle){
+       // Moves the turtle to the top left hand side of the screen (goTo -400, 300
+      myTurtle.penup();
+      myTurtle.goTo(-400, 300);
+    }
 
-void draw_triangle(ct::Point a, ct::Point b, ct::Point c, ct::Color color, ct::Turtle& myTurtle){
+    void draw_rectangle(ct::Point a, ct::Point b, ct::Point c, ct::Point d, ct::Color color, ct::Turtle& myTurtle){
     myTurtle.fillcolor(color);
     myTurtle.penup();
     myTurtle.goTo(a.x, a.y);
@@ -36,33 +27,41 @@ void draw_triangle(ct::Point a, ct::Point b, ct::Point c, ct::Color color, ct::T
     myTurtle.begin_fill();
     myTurtle.goTo(c.x, c.y);
     myTurtle.goTo(b.x, b.y);
+    myTurtle.goTo(d.x, d.y);
     myTurtle.goTo(a.x, a.y);
     myTurtle.end_fill();
-}
-
-//getMid already defined as "middle" function in C-Turtle namespace :)
-
-void sierpinski(ct::Point a, ct::Point b, ct::Point c, int degree, ct::Turtle& myTurtle){
-    const std::string colormap[] = {"blue", "red", "green", "white", "yellow", "violet", "orange"};
-    draw_triangle(a,b,c, {colormap[degree]}, myTurtle);
-    if(degree > 0){
-        sierpinski(a, ct::middle(a, b), ct::middle(a, c), degree - 1, myTurtle);
-        sierpinski(b, ct::middle(a, b), ct::middle(b, c), degree - 1, myTurtle);
-        sierpinski(c, ct::middle(c, b), ct::middle(a, c), degree - 1, myTurtle);
+      
     }
-}
-
-int main() {
-    ct::TurtleScreen scr; //makes screen
-    scr.tracer(20); //improves speed the most with parameter 0, greater to see what is happening
-    ct::Turtle rt(scr);   //makes Turtle on screen
-
-	Getrandom newrandom(4);
     
-	//graphing commands go below here
-    ct::Point myPoints[] = {{-200, -100}, {0, 200}, {200, -100}};
-    sierpinski(myPoints[0], myPoints[1], myPoints[2], newrandom.roll(), rt);
+    void mondrian(ct::Point a, ct::Point b, ct::Point c, ct::Point d, int region, int width, int lenght, int degree, ct::Turtle myTurtle){
+    draw_rectangle(a,b,c,d, color, myTurtle);
+    // The recursive mondrian function that holds all the steps found above.
     
-    scr.exitonclick();  //exists graphics screen
-    return 0;
+    if (region > width/2 && region > lenght/2){
+    
+    }
+    else if (region > width/2){
+
+    }
+    else if (region > lenght/2){
+    
+    }
+   
+    }
+    void reset(){
+    // Optional. You can use this to keep creating pieces of art until you find one you like!
+    // e.g, turtle.reset()
+    }
+   private:
+    // string colorList[];
+    // ct:: TurtleScreen screen;
+    // ct:: Turtle myTurtle;
+};
+int main(){
+// ct::TurtleScreen scr;
+// ct::Turtle myTurtle(scr);
+// myTurtle.penup();
+// myTurtle.goTo(-400, 300);
+// scr.exitonclick();  //exists graphics screen
+return 0;
 }
