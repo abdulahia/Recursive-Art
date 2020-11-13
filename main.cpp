@@ -30,20 +30,25 @@ class MondrianArt{
     myTurtle.goTo(d.x, d.y);
     myTurtle.goTo(a.x, a.y);
     myTurtle.end_fill();
-      
     }
     
-    void mondrian(ct::Point a, ct::Point b, ct::Point c, ct::Point d, int region, int width, int lenght, int degree, ct::Turtle myTurtle){
-    draw_rectangle(a,b,c,d, color, myTurtle);
+    void mondrian(ct::Point a, ct::Point b, ct::Point c, ct::Point d, int region, int width, int height, ct::Turtle myTurtle){
+      const string colormap[] = {"blue", "red",    "green", "white", "yellow", "violet", "orange"};
+    draw_rectangle(a,b,c,d, {colormap[region]}, myTurtle);
     // The recursive mondrian function that holds all the steps found above.
-    
-    if (region > width/2 && region > lenght/2){
-    
+    width = 800;
+    height = 600; 
+    region = width * height; 
+    if (region > 600/2 && region > 400/2){
+      mondrian(a, ct::middle(a, b), ct::middle(a, c), ct::middle(a,d), region - 1, myTurtle);
+      // mondrian(b, ct::middle(a, b), ct::middle(b, c), ct::middle(b,d), region - 1, myTurtle);
+      // mondrian(c, ct::middle(c, b), ct::middle(a, c), ct::middle(c,d), region - 1, myTurtle);
+      // mondrian(d, ct::middle(d,a), ct::middle(d,b), ct::middle(d,c), region - 1, myTurtle);
     }
-    else if (region > width/2){
+    else if (region > 600/2){
 
     }
-    else if (region > lenght/2){
+    else if (region > 400/2){
     
     }
    
@@ -58,10 +63,12 @@ class MondrianArt{
     // ct:: Turtle myTurtle;
 };
 int main(){
-// ct::TurtleScreen scr;
-// ct::Turtle myTurtle(scr);
+ct::TurtleScreen scr;
+ct::Turtle myTurtle(scr);
 // myTurtle.penup();
-// myTurtle.goTo(-400, 300);
-// scr.exitonclick();  //exists graphics screen
+myTurtle.goTo(-400, 300);
+// myTurtle.pendown();
+myTurtle.goTo(400, -300);
+scr.exitonclick();  
 return 0;
 }
