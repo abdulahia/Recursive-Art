@@ -34,36 +34,46 @@ private:
   //     myTurtle.goTo(-400, 300);
   //   }
 
-    void draw_rectangle(ct::Point a, ct::Point b, ct::Point c, ct::Point d, ct::Color color, ct::Turtle& myTurtle){
-    myTurtle.fillcolor(color);
+    void draw_rectangle(ct::Point a, ct::Point b, ct::Point c, ct::Point d, ct::Turtle& myTurtle){
+    // myTurtle.fillcolor();
     myTurtle.penup();
     myTurtle.goTo(a.x, a.y);
     myTurtle.pendown();
-    myTurtle.begin_fill();
-    myTurtle.goTo(c.x, c.y);
     myTurtle.goTo(b.x, b.y);
+    myTurtle.goTo(c.x, c.y);
     myTurtle.goTo(d.x, d.y);
     myTurtle.goTo(a.x, a.y);
-    myTurtle.end_fill();
+    // myTurtle.end_fill();
     }
     
-    void mondrian(ct::Point a, ct::Point b, ct::Point c, ct::Point d, int region, int width, int height, ct::Turtle& myTurtle){
+    void mondrian(ct::Point a, ct::Point b, ct::Point c, ct::Point d, ct::Turtle& myTurtle){
       const string colormap[] = {"blue", "red",    "green", "white", "yellow", "violet", "orange"};
-    draw_rectangle(a,b,c,d, {colormap[region]}, myTurtle);
+    draw_rectangle(a,b,c,d, myTurtle);
+    
     // The recursive mondrian function that holds all the steps found above.
-     
-    // region = width * height; 
+
+
+    int width = b.x - a.x;
+    cout << "Here is the width " << width;
+    int height = a.y - d.y;
+    cout << "Here is the height " << height;
+    
+    Getrandom ran(width);
+    Getrandom other_ran(height);
+    int randx = ran.roll() + a.x;
+    int randy = other_ran.roll() + d.y;
+
     if (width > 800/2 && height > 600/2){
-      // mondrian(a, (a.x, random number 0-800));
-      // mondrian(a, (a.y, random number 0-600));
+      mondrian(a, {randx, a.y}, {randx, d.y},{d.x, d.y}, myTurtle);
+      mondrian({a.x, randy},{b.x, randy},{c.x, c.y} , {d.x, d.y}, myTurtle);
       
     }
-    else if (region > 800/2){
+    // else if (width > 800/2){
 
-    }
-    else if (region > 600/2){
+    // }
+    // else if (region > 600/2){
     
-    }
+    // }
    
     }
     
@@ -74,14 +84,13 @@ private:
 // };
 int main(){
 ct::TurtleScreen scr; //makes screen
-scr.tracer(20); //improves speed the most with parameter 0, greater to see what is happening
+scr.tracer(2); //improves speed the most with parameter 0, greater to see what is happening
 ct::Turtle rt(scr);   //makes Turtle on screen
 
-Getrandom newrandom(1);
-int width = 800;
-int height = 600;
+// Getrandom newrandom(4);
+
 ct::Point Points[] = {{-400,300 }, {400, 300}, {400, -300},{-400, -300}};
-mondrian(Points[0], Points[1], Points[2], Points[3], newrandom.roll(), width, height, rt);
+mondrian(Points[0], Points[1], Points[2], Points[3], rt);
 scr.exitonclick();  
 return 0;
 }
